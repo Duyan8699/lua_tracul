@@ -2,19 +2,18 @@
 /* CSS Document */
 
 @font-face
-{
 	font-family:bebas;
-	src:url("../BEBAS/SVN-BEBAS NEUE BOLD.TTF");
+	src:url("../bebas/SVN-BEBAS NEUE BOLD.TTF");
 }
 @font-face
 {
 	font-family:averta;
-	src:url("../Averta/Averta-Regular.otf");
+	src:url("../averta/Averta-Regular.otf");
 }
 @font-face
 {
 	font-family:nexabook;
-	src:url("../NEXA font/Nexa-Book.ttf");
+	src:url("../nexa font/Nexa-Book.ttf");
 }
 @font-face
 {
