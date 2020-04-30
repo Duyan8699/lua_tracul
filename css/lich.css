@@ -93,9 +93,9 @@ tr td .number
 
 .new
 {margin:0;padding:160px 0 0 0;}
-.new ul li
+.op ul li
 {list-style:none;}
-textarea
+.text
 {font-size:14pt;width:270px;height:200px;overflow:hidden;visibility:visible;}
 
 
