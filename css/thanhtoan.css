@@ -60,7 +60,7 @@ ul li a:hover
 .space
 {height:700px;}
 .content
-{height:700px;padding-top:220px;z-index:-1;}
+{height:700px;padding-top:100px;z-index:-1;}
 .name
 {font-family:bebas;font-size:100pt;color:#161616;line-height:130px;visibility:visible}
 .back
@@ -86,7 +86,7 @@ a.trolai:hover
 .mail input
 {width:60%;padding-left: 5px;;font-size: 12pt}
 .buy
-{padding-top:220px;text-align:left;}
+{padding-top:100px;text-align:left;}
 .success
 {font-family:nexabook;font-size:14pt;color:#ffcc00;}
 .thank, .para
