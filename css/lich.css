@@ -93,8 +93,8 @@ tr td .number
 
 .new
 {margin:0;padding:160px 0 0 0;}
-.new ul li
-{text-decoration:none;}
+.new ul li a
+{text-decoration:none;list-style:none;}
 textarea
 {font-size:14pt;width:270px;height:200px;overflow:hidden;visibility:visible;}
 
