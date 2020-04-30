@@ -32,7 +32,7 @@
 .menu ul li :hover
 {color: #ffcc00}
 .navigator
-{height:100px;visibility:visible;}
+{height:100px;visibility:visible;background-color:white;}
 div.navigator ul li
 {list-style:none;float:left;line-height:80px;font-family: bebas;margin-right:22px;}
 div.navigator ul
@@ -42,7 +42,7 @@ ul li a
 ul li a:hover
 {color:#FFCC00;text-decoration:none;}
 .logo
-{height:100px;line-height:94px;}
+{height:100px;line-height:94px;background-color:white;}
 .logo img
 {width:40%;}
 .blank
