@@ -57,7 +57,7 @@ ul li a:hover
 
 
 .back
-{height:120px;visibiity:visible;}
+{height:100px;visibiity:visible;}
 a.trolai
 {font-family:avertalight;text-decoration:none;color:#161616;font-size:12pt;margin-top:100px;float:right;}
 a.trolai:hover
@@ -65,7 +65,7 @@ a.trolai:hover
 .arrow
 {width:100%;float:right;}
 .name
-{font-family:bebas;font-size:80pt;z-index:-1;}
+{font-family:bebas;font-size:50pt;z-index:-1;}
 
 
 
@@ -94,8 +94,6 @@ a.trolai:hover
 
 
 
-div.bar div.icon img:hover
-{visibility:hidden;}
 .icon
 {height:150px;margin: auto 0}
 .icon ul li
