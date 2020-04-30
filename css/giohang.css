@@ -82,7 +82,7 @@ a.trolai:hover
 .item:hover
 {transition:ease-in-out 0.1s;transform:scale(1.05);}
 .item input
-{position:absolute;top:10px;left:45px;}
+{position:absolute;top:10px;left:50px;}
 .title
 {font-family:bebas;font-size:20pt;margin-top:10px;}
 .description
@@ -169,6 +169,8 @@ a.trolai:hover
 	{font-size:18pt;}
 	.item img
 	{width:180px;height:180px;}
+	.item input
+	{top:10px;left:30px;}
 	.description
 	{font-size:12pt;}
 	.keyword
@@ -211,8 +213,6 @@ a.trolai:hover
 	{width:170px;height:170px;}
 	.title
 	{font-size:16pt;}
-	.item img
-	{width:190px;height:190px;}
 	.description
 	{font-size:10pt;}
 	.keyword
