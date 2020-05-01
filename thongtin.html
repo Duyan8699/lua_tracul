@@ -11,7 +11,7 @@
 
 <body>
 	<div class="container-fluid">
-		<div class="row">
+		<div class="row" style="position: fixed;top: 0; width:100%;background-color:white;z-index:100px;">
 			<div class="col-lg-1 col-sm-2 col-xs-2 menu">
 			  <ul><li><a href="list.html"><i class="fa fa-bars"></i></a></li></ul>
 			</div>
@@ -68,7 +68,24 @@
                     			<li><a><i id="share-button" class="fa fa-paper-plane" aria-hidden="true"></i></a></li>
                 		</ul>
 			</div>
-			
+			<script>
+				var like_button = document.getElementById("save-button");
+        	        	if (like_button) {
+        	        	like_button.addEventListener("click", doLikeButton);
+        	        	}
+        	        
+        	        	function doLikeButton(e) {
+        	        	toggleButton(e.target);
+        	        	}
+	
+        	        	function toggleButton(button)
+        	        	{
+        	        	button.classList.toggle('liked');
+        	        	button.classList.toggle('not-liked');
+                		button.classList.toggle('fa fa-heart');
+				button.classList.toggle('fa fa-heart-o');  
+                		}
+            		</script>			
 			<script>
 				var save_button = document.getElementById("save-button");
         	        	if (save_button) {
