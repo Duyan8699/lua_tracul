@@ -85,26 +85,21 @@ textarea
 
 
 .space ul li
-{list-style:none;text-align:center;}
+{list-style:none;text-align:center;color: #4d4d4d;}
 .space ul li :hover
 {color: #ffcc00;}
 #like-button:hover
-{cursor: pointer;color: #FECD08;}
-#like-button.not-liked
-{color: #141414;}
+{cursor: pointer;color: #ffcc00;}
 #like-button.not-liked:hover
 {color: #ffcc00;}
-#save-button.liked
-{color: #FECD08;}
+#like-button.liked
+{color: #ffcc00;}
 #save-button:hover
 {cursor: pointer;color: #FECD08;}
-#save-button.not-liked
-{color: #161616;}
 #save-button.not-liked:hover
 {color: #FECD08;}
 #save-button.liked
 {color: #FECD08;}
-
 
 
 
