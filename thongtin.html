@@ -63,11 +63,31 @@
 		<div class="row">
 			<div class="col-lg-1 col-md-12 col-sm-12 space">
 				<ul>
-                    			<li><a><i id="like-button" class="fa fa-heart-o not-liked"></i></a></li><br>
-                    			<li><a><i id="save-button" class="fa fa-bookmark-o not-saved"></i></a></li><br>
+                    			<li><a><i id="like-button" class="fa fa-heart not-liked"></i></a></li><br>
+                    			<li><a><i id="save-button" class="fa fa-bookmark not-saved"></i></a></li><br>
                     			<li><a><i id="share-button" class="fa fa-paper-plane" aria-hidden="true"></i></a></li>
                 		</ul>
 			</div>
+			
+			<script>
+				var save_button = document.getElementById("save-button");
+        	        	if (save_button) {
+        	        	save_button.addEventListener("click", doSaveButton);
+        	        	}
+        	        
+        	        	function doSaveButton(e) {
+        	        	toggleButton(e.target);
+        	        	}
+	
+        	        	function toggleButton(button)
+        	        	{
+        	        	button.classList.toggle('saved');
+        	        	button.classList.toggle('not-saved');
+                		button.classList.toggle('fa fa-bookmark');
+				button.classList.toggle('fa fa-bookmark-o');  
+                		}
+            		</script>			
+			
 			
 			<div class="col-lg-10 col-md-12 col-sm-12 document" id="document">
 				<div class="wrapper">
