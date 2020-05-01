@@ -164,11 +164,11 @@ div.bar div.icon img:hover
 	.back
 	{height:180px;visibility:hidden;}
 	.new
-	{height:180px;}
+	{height:460px;}
 	a.gioto
-	{margin-left:100px;}
+	{margin-left:10px;}
 	.info
-	{margin-left:200px;}
+	{margin-left:100px;}
 	.bar
 	{height:180px;visibility:hidden;}
 	.docthem
@@ -183,6 +183,8 @@ div.bar div.icon img:hover
 	{height:360px;}
 	.essay03 img
 	{height:180px;}
+	.logo img
+	{width:40%;}
 		
 	
 }
@@ -198,10 +200,6 @@ div.bar div.icon img:hover
 	{margin-left:60px;}
 	.info
 	{margin-left:140px;}
-	.docthem
-	{visibility:hidden;}
-	.new img
-	{visibility:hidden;}
 	.wrapper
 	{border:none;box-shadow:none;}
 	.document
