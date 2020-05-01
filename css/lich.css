@@ -67,7 +67,7 @@ a.trolai:hover
 
 
 .lich
-{font-family:bebas;font-size:80pt;text-align:right;line-height:100px;padding-top:90px;}
+{font-family:bebas;font-size:100pt;text-align:right;line-height:130px;padding-top:56px;}
 
 
 .time
@@ -75,28 +75,28 @@ a.trolai:hover
 .caption
 {font-family:nexabook;}
 .date
-{padding:20px 0 0 0;}
+{padding:22px 0 0 0;}
 tr
 {text-align:center;}
 tr th
-{padding:10px;}
+{padding:11px;}
 tr td
-{padding:20px;}
+{padding:25px;}
 tr td.special
 {background-color:#FFD700;}
 tr td.special:hover
-{transform:scale(1.1);}
+{transform:scale(0.95);transition: scale 1s}
 tr td .number
 {color:#161616;text-decoration:none;}
 
 
 
 .new
-{margin:0;padding:160px 0 0 0;}
+{height:450px;padding-top:160px;}
 .new ul li
-{list-style:none;}
+{list-style: none;text-align:left;}
 .text
-{font-size:12pt;width:270px;height:200px;overflow:hidden;visibility:visible;}
+{padding:50px 0 0 40px;font-family:averta;font-size:12pt;width:283px;height:200px;visibility:visible;}
 
 
 
@@ -127,11 +127,19 @@ div.bar div.icon img:hover
 	.sign ul li
 	{visibility:hidden;}
 	.back
-	{visibility:hidden;}
+	{height:290px;visibility:hidden;}
 	.bar
 	{visibility:hidden;}
-	.new textarea
+	.text
 	{visibility:hidden;}
+	.logo img
+	{width:40%;}
+	.lich
+	{padding-top:20px;}
+	.time
+	{padding-top:40px;}
+	.new
+	{height:480px;padding-top:132px;}
 	
 }
 
@@ -140,16 +148,13 @@ div.bar div.icon img:hover
 
 @media only screen and (max-width:576px)
 {
-	.navigator
-	{visibility:hidden;}
-	.sign ul li
-	{visibility:hidden;}
-	.back
-	{visibility:hidden;}
-	.bar
-	{visibility:hidden;}
-	.new textarea
-	{visibility:hidden;}
+	
+	.logo img
+	{width:60%;}
+	.new
+	{height:110px;padding-top:10px;}
+	.new ul li
+	{text-align:right;}
 	
 }
 
