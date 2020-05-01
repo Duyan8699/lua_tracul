@@ -27,9 +27,9 @@
 .menu ul li
 {list-style:none;width:100%;}
 .menu ul li .fa
-{color:#4d4d4d}
+{font-size:20pt;color:#4d4d4d;}
 .menu ul li :hover
-{color: #ffcc00}
+{color: #ffcc00;}
 .navigator
 {height:100px;visibility:visible;}
 div.navigator ul li
