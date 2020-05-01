@@ -11,6 +11,6 @@ function toggleButton(button)
 {
     button.classList.toggle('liked');
     button.classList.toggle('not-liked');
-    button.classList.toggle('fal fa-heart');
-    button.classList.toggle('fas fa-heart');  
+    button.classList.toggle('fa fa-heart');
+    button.classList.toggle('fa fa-heart-o');  
 }
