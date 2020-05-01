@@ -40,7 +40,7 @@ div.navigator ul
 ul li a
 {font-size:14pt;text-decoration:none;color:#161616;}
 ul li a:hover
-{color:#FFCC00;text-decoration:none;}
+{color:#ffcc00;text-decoration:none;}
 .logo
 {line-height:100px;background-color: white}
 .logo img
@@ -95,11 +95,11 @@ textarea
 #like-button.liked
 {color: #ffcc00;}
 #save-button:hover
-{cursor: pointer;color: #FECD08;}
+{cursor: pointer;color: #ffcc00;}
 #save-button.not-liked:hover
-{color: #FECD08;}
+{color: #ffcc00;}
 #save-button.liked
-{color: #FECD08;}
+{color: #ffcc00;}
 
 
 
