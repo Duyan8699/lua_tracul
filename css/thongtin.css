@@ -68,15 +68,13 @@ a.trolai:hover
 
 
 .new
-{height:460px;padding-top:65px;}
+{height:580px;padding-top:170px;}
 a.gioto
-{margin-left:310px;text-decoration:none;color:#161616;font-family:bebas;font-size:36pt;}
+{margin-left:250px;text-decoration:none;color:#161616;font-family:bebas;font-size:30pt;}
 .info
-{margin-left:500px;width:400px;height:110px;font-family:averta;font-size:12pt;text-decoration:none;color:#161616;}
-textarea
-{width:400px;height:110px;font-family:averta;font-size:14pt;text-decoration:none;color:#161616;}
+{margin:10px 0 0 540px;width:400px;height:110px;font-family:averta;font-size:12pt;text-decoration:none;color:#161616;}
 .them
-{height:100px;margin-left:870px;}
+{height:100px;margin: 15px 0 0 740px;}
 .docthem
 {text-align:left;font-family:avertalight;text-decoration:none;color:#161616;font-size:12pt;writing-mode:vertical-rl;visibility:visible;}
 .new img
@@ -104,7 +102,7 @@ textarea
 
 
 .wrapper
-{height:1460px;width:100%;border:thin solid #ffffff;border-radius:10px;padding:40px;box-shadow:0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
+{height:1460px;width:100%;border:thin solid #ffffff;border-radius:10px;padding:40px;box-shadow:0 14px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.18);}
 .document
 {height:1500px;}
 .document
