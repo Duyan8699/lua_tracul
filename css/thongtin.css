@@ -72,7 +72,7 @@ a.trolai:hover
 a.gioto
 {margin-left:300px;text-decoration:none;color:#161616;font-family:bebas;font-size:30pt;}
 .info
-{margin-left:500px;}
+{margin-left:500px;width:400px;height:110px;font-family:averta;font-size:12pt;text-decoration:none;color:#161616;}
 textarea
 {width:400px;height:110px;font-family:averta;font-size:14pt;text-decoration:none;color:#161616;}
 .them
@@ -84,13 +84,25 @@ textarea
 
 
 
+.space ul li
+{list-style:none;text-align:center;}
+.space ul li :hover
+{color: #ffcc00;}
 #like-button:hover
 {cursor: pointer;color: #FECD08;}
 #like-button.not-liked
-{color: #161616;}
+{color: #141414;}
 #like-button.not-liked:hover
+{color: #ffcc00;}
+#save-button.liked
 {color: #FECD08;}
-#like-button.liked
+#save-button:hover
+{cursor: pointer;color: #FECD08;}
+#save-button.not-liked
+{color: #161616;}
+#save-button.not-liked:hover
+{color: #FECD08;}
+#save-button.liked
 {color: #FECD08;}
 
 
@@ -187,24 +199,8 @@ div.bar div.icon img:hover
 	
 @media only screen and (max-width:576px)
 {	
-	.menu
-	{height:30px;padding-top:0;}
-	.navigator
-	{height:30px;visibility:hidden;}
-	.logo
-	{height:30px;}
 	.logo img
-	{width:30%;}
-	.blank
-	{height:30px;}
-	.sign
-	{height:30px;}
-	.sign ul li
-	{visibility:hidden;line-height:0;}
-	.back
-	{visibility:hidden;}
-	.bar
-	{visibility:hidden;}
+	{width:60%;}
 	a.gioto
 	{margin-left:60px;}
 	.info
